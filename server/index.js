@@ -12,6 +12,7 @@ app.use(cors())
 app.get('/api/houses', getHouses)
 app.delete('/api/houses/:Id', deleteHouse)
 app.post('/api/houses', createHouse)
+app.put('/api/houses/:id', updateHouse)
 
 
 
